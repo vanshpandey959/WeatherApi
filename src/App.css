@@ -1,0 +1,133 @@
+.container {
+  text-align: center;
+  float: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  height: 500px;
+  max-width: 600px;
+  background-color: #472e7c;
+}
+
+.container h1 {
+  color: white;
+  font-size: 2.5em;
+  margin: 10px;
+  font-weight: bold;
+  text-shadow: 4px 4px 8px rgba(5, 14, 21, 0.5);
+}
+
+.date {
+  color: rgb(225, 231, 235);
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(5, 14, 21, 0.5);
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.input {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px;
+  outline: none;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.weather-container {
+  color: white;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.city {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.temp {
+  font-size: 2rem;
+  margin: 10px 0;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(5, 14, 21, 0.5);
+}
+
+.temp-img {
+  width: 100px;
+  height: 100px;
+  margin: -20px 0;
+}
+
+.min-max {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+  margin: 10px 0;
+}
+
+.min, .max {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(5, 14, 21, 0.5);
+}
+
+
+.clothes-container {
+  text-align: center;
+  float: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  height: 250px;
+  max-width: 600px;
+  background-color: #350f86;
+}
+
+.clothes-container h1 {
+  color: white;
+  font-size: 2.5em;
+  margin: 10px;
+  font-weight: bold;
+  text-shadow: 4px 4px 8px rgba(16, 31, 42, 0.5);
+}
+
+.weather, .temperature{
+  color: rgb(34, 255, 10);
+  font-size: 1.2rem;
+  margin: 5px 0;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(16, 31, 42, 0.5);
+}
+
+.clothes {
+  color: white;
+  font-size: 1.2rem;
+  margin: 5px 0;
+  text-shadow: 2px 2px 4px rgba(16, 31, 42, 0.5);
+}
